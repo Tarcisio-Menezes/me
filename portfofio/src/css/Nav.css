@@ -1,0 +1,18 @@
+.navigator {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+.navigator a:hover {
+  color: rgb(68, 68, 106);
+  text-decoration-line: none;
+}
+
+.navigator a:active {
+  color: rgb(63, 124, 236);
+}
+
+.navigator a {
+  color: cornflowerblue;
+}

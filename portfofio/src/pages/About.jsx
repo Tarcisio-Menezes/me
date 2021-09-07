@@ -1,19 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
+import Nav from '../components/Nav';
+import '../css/About.css';
 
 class About extends React.Component {
   render() {
 
     return(
-      <section>
-        <nav className="navigator">
-          <Link to="/">Inicio</Link>
-          <Link to="/works">Trabalhos</Link>
-          <Link to="/contact">Contato</Link>
-          <Link to="/about">Sobre</Link>
-        </nav>
-        <h1>Sou a página Sobre</h1>
-      </section>
+      <Container fluid="md">
+        <Nav />
+        <section>
+          <h1>Sou a página Sobre</h1>
+        </section>
+      </Container>
     );
   }
 }

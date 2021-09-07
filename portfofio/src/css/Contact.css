@@ -1,0 +1,37 @@
+.classContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60%;
+  color:cornflowerblue;
+  margin-left: 70%;
+  width: max-content;
+  padding: 3%;
+  opacity: 70%;
+}
+
+.classContact:hover {
+  opacity: 100%;
+}
+
+.classContact div h1 {
+  color: cornflowerblue;
+}
+
+.classContact div a {
+  color: cornflowerblue;
+}
+
+.classContact section a {
+  text-decoration-line: none;
+}
+
+.classContact section a:hover {
+  text-decoration-line: none;
+  color: rgb(68, 68, 106);
+}
+
+.classContact section a:active {
+  text-decoration-line: none;
+  color: cornflowerblue;
+}

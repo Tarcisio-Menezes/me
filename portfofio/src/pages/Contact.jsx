@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Nav from '../components/Nav';
 import { FaPhoneAlt, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BiMessageRounded } from "react-icons/bi";
+import '../css/Contact.css';
 
 
 class Contact extends React.Component {
@@ -9,12 +10,7 @@ class Contact extends React.Component {
 
     return(
       <div className="mainContact">
-        <nav className="navigator">
-          <Link to="/">Inicio</Link>
-          <Link to="/works">Trabalhos</Link>
-          <Link to="/contact">Contato</Link>
-          <Link to="/about">Sobre</Link>
-        </nav>
+        <Nav />
         <section className="classContact">
           <div>
             <h1>Entre em contato!</h1>
