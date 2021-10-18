@@ -2,3 +2,7 @@
   width: 50%;
   margin: auto;
 }
+
+.mysqlP, .mongoP, .jorelP, .starwarsP, .recipesP, .walletP {
+  background-color: rgb(112, 112, 112);
+}

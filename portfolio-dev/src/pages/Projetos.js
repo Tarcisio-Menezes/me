@@ -25,7 +25,7 @@ function Projects() {
                 src={ walletProject }
                 alt="First slide - Project Trybe Wallet"
               />
-              <Carousel.Caption>
+              <Carousel.Caption className="walletP">
                 <h3>Project Trybe Wallet</h3>
                 <p>
                   Conversor de taxas de câmbio, desenvolvido com ReactJS, Redux e Redux-thunk.
@@ -38,7 +38,7 @@ function Projects() {
                 src={ recipesProject }
                 alt="Second slide - Project Recipes App"
               />
-              <Carousel.Caption>
+              <Carousel.Caption className ="recipesP">
                 <h3>Project Recipes App</h3>
                 <p>
                   App de receitas versão mobile, desenvolvido com ReactJS, ContextAPI e Hooks.
@@ -51,7 +51,7 @@ function Projects() {
                 src={ starWarsProject }
                 alt="Third slide - Star Wars Planets"
               />
-              <Carousel.Caption>
+              <Carousel.Caption className ="starwarsP">
                 <h3>Star Wars Planets</h3>
                 <p>
                   Buscador de planetas de Star Wars, desenvolvido com ReactJS, ContextAPI e Hooks.
@@ -64,7 +64,7 @@ function Projects() {
                 src={ jorelProject }
                 alt="Four slide - Irmão do Jorel fã page"
               />
-              <Carousel.Caption>
+              <Carousel.Caption className ="jorelP">
                 <h3>Irmão do Jorel fã page</h3>
                 <p>
                   Buscador de personagens de Irmão do Jorel, desenvolvido com ReactJS, ContextAPI e Hooks.
@@ -77,7 +77,7 @@ function Projects() {
                 src={ aggregationsProject }
                 alt="Five slide - MongoDB Aggregations"
               />
-              <Carousel.Caption>
+              <Carousel.Caption  className ="mongoP">
                 <h3>MongoDB Aggregations</h3>
                 <p>
                   Queries aggregations MongoDB.
@@ -90,7 +90,7 @@ function Projects() {
                 src={ mysqlProject }
                 alt="Six slide - Spotfy clone"
               />
-              <Carousel.Caption>
+              <Carousel.Caption  className ="mysqlP">
                 <h3>Spotfy clone</h3>
                 <p>
                   Normalização de tabelas e estruturação de banco de dados com mySQL.
