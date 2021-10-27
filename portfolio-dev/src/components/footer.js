@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/footer.css';
 
 function footer() {
   return (
-    <footer>
+    <footer className="footer">
       <p>
         Copyright © 2021 - Tarcísio Menezes Desenvolvedor Full-Stack
       </p>
