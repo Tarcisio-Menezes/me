@@ -3,6 +3,8 @@ import { Button } from 'react-bootstrap';
 import Nav from '../components/nav';
 import gitLogo from '../images/git.png';
 import linkedinLogo from '../images/linkedin.png';
+import telLogo from '../images/tel.png';
+import Footer from '../components/footer';
 
 function Contact() {
   return (
@@ -15,6 +17,15 @@ function Contact() {
         Se procura alguém para desenvolver aplicações web com o que há 
         de mais moderno no mundo dev, entre em contato!
       </h3>
+      <h4>
+        <a
+          href="https://drive.google.com/file/d/1IUxqWsJYDk0Se4z738YgorJ-DJNccdK_/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Baixe o meu currículo aqui.
+        </a>
+      </h4>
       <section>
       <a
         href="https://github.com/Tarcisio-Menezes"
@@ -45,7 +56,16 @@ function Contact() {
         >
           Enviar uma mensagem no WhatsApp
         </Button>
+      <div>
+        <img 
+          src={ telLogo } 
+          width="2%"
+          alt="Smatphone logo"
+        />
+        <p>(16) 996314645</p>
+      </div>
       </section>
+      <Footer />
     </div>
   );
 }

@@ -8,6 +8,7 @@ import mysqlProject from '../images/spotifyclone.png'
 import repoGit from '../images/repo.png';
 import walletLogo from '../images/walletLogo.png';
 import rickLogo from '../images/rickLogo.png';
+import Footer from '../components/footer';
 import '../css/projetos.css';
 
 function Projects() {
@@ -153,6 +154,7 @@ function Projects() {
           </a>
         </h3>
       </div>
+      <Footer />
     </div>
   );
 }

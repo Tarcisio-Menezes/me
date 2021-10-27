@@ -1,5 +1,8 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
+import Footer from '../components/footer';
 
 function Home() {
   return (
@@ -12,11 +15,14 @@ function Home() {
       Desenvolvedor Full-Stack com experiência em Node JS, MongoDB, MySQL, 
       JavaScript, React, HTML, Jest, CSS dentre outras tecnologias.
       </p>
-      <button 
-        type="button"
-        className="btn btn-outline-primary">
-          Saiba mais
-      </button>
+      <Link to="/sobre">
+        <Button 
+          variant="outline-secondary"
+        >
+          Conheça mais
+        </Button>
+      </Link>
+      <Footer />
     </div>
   );
 }

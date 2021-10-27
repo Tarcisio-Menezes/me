@@ -4,6 +4,7 @@ import nodeLogo from '../images/node.png';
 import mysqlLogo from '../images/mysql.png';
 import reactLogo from '../images/react.png';
 import mongoLogo from '../images/mongo.png';
+import Footer from '../components/footer';
 
 function About() {
   return (
@@ -47,6 +48,7 @@ function About() {
           </p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
