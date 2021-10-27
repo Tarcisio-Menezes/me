@@ -11,3 +11,8 @@
 .home p, a {
   align-self: center;
 }
+
+.home hr {
+  align-self: center;
+  width: 15%;
+}
