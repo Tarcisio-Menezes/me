@@ -5,10 +5,11 @@ import mysqlLogo from '../images/mysql.png';
 import reactLogo from '../images/react.png';
 import mongoLogo from '../images/mongo.png';
 import Footer from '../components/footer';
+import '../css/sobre.css';
 
 function About() {
   return (
-    <div>
+    <div className="about">
       <Nav />
       <h2>
         Um pouco sobre mim!
@@ -16,12 +17,12 @@ function About() {
       <p>
         Considero-me um entusiasta da tecnologia, principalmente computadores e programação, 
         atualmente me encontro em transição de carreira, estudando desenvolvimento web 
-        full-stack pela <a href="https://www.betrybe.com">Trybe</a>
+        full-stack pela <a href="https://www.betrybe.com">Trybe</a>.
       </p>
       <h3>
         Tecnologias de trabalho
       </h3>
-      <section>
+      <section className="techs">
         <div>
           <img src={ nodeLogo } alt='Logo NodeJS' width="5%" />
           <p>

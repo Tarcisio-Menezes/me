@@ -12,6 +12,11 @@
   align-self: center;
 }
 
+.home p {
+  text-align: center;
+  width: 35%;
+}
+
 .home hr {
   align-self: center;
   width: 15%;
