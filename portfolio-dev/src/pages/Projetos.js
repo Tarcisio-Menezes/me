@@ -1,11 +1,9 @@
 import React from 'react';
 import Nav from '../components/nav';
 import { Carousel } from 'react-bootstrap';
-import jorelProject from '../images/jorel.png'
-import recipesProject from '../images/recipes.png'
-import starWarsProject from '../images/starwars.png'
+import talkerProject from '../images/talker.png';
+import rickProject from '../images/rickAndMority.png';
 import walletProject from '../images/wallet.png'
-import aggregationsProject from '../images/mongosh.png'
 import mysqlProject from '../images/mysqlwork.png'
 import '../css/projetos.css';
 
@@ -28,59 +26,37 @@ function Projects() {
               <Carousel.Caption className="walletP">
                 <h3>Project Trybe Wallet</h3>
                 <p>
-                  Conversor de taxas de câmbio, desenvolvido com ReactJS, Redux e Redux-thunk.
+                Nesta aplicação é possível registrar e converter despesas, 
+                em diferentes taxas de câmbio, para o real, de forma simples e organizada.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={ recipesProject }
-                alt="Second slide - Project Recipes App"
+                src={ talkerProject }
+                alt="Second slide - Project Talker Manager"
               />
               <Carousel.Caption className ="recipesP">
-                <h3>Project Recipes App</h3>
+                <h3>Project Talker Manager</h3>
                 <p>
-                  App de receitas versão mobile, desenvolvido com ReactJS, ContextAPI e Hooks.
+                Talker Manager é uma API CRUD (Create, Read, Update e Delete) de 
+                palestrantes, que utiliza o módulo fs, sem qualquer interação 
+                com banco de dados.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={ starWarsProject }
+                src={ rickProject }
                 alt="Third slide - Star Wars Planets"
               />
-              <Carousel.Caption className ="starwarsP">
-                <h3>Star Wars Planets</h3>
+              <Carousel.Caption className ="rickP">
+                <h3>Rick and Morty page</h3>
                 <p>
-                  Buscador de planetas de Star Wars, desenvolvido com ReactJS, ContextAPI e Hooks.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={ jorelProject }
-                alt="Four slide - Irmão do Jorel fã page"
-              />
-              <Carousel.Caption className ="jorelP">
-                <h3>Irmão do Jorel fã page</h3>
-                <p>
-                  Buscador de personagens de Irmão do Jorel, desenvolvido com ReactJS, ContextAPI e Hooks.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={ aggregationsProject }
-                alt="Five slide - MongoDB Aggregations"
-              />
-              <Carousel.Caption  className ="mongoP">
-                <h3>MongoDB Aggregations</h3>
-                <p>
-                  Queries aggregations MongoDB.
+                Procure pelos seus personagens favoritos e alguns episódios 
+                do seriado Rick and Morty.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -93,7 +69,8 @@ function Projects() {
               <Carousel.Caption  className ="mysqlP">
                 <h3>Spotfy clone</h3>
                 <p>
-                  Normalização de tabelas e estruturação de banco de dados com mySQL.
+                Spotify Simple Clone é uma série de comandos e queries 
+                que modela um banco de dados MySQL.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
