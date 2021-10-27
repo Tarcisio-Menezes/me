@@ -3,10 +3,11 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
+import '../css/home.css';
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Nav />
       <h1>
         Tarcísio A R Menezes

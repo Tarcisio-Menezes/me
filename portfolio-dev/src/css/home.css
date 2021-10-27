@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home h1 {
+  align-self: center;
+  margin-top: 10%;
+}
+
+.home p, a {
+  align-self: center;
+}
