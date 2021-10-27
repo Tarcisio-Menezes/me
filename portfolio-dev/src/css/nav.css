@@ -1,0 +1,11 @@
+.navigator {
+  color:rgb(0, 0, 0);
+  display: flex;
+  padding: 1%;
+  justify-content: space-around;
+}
+
+.navigator a {
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
