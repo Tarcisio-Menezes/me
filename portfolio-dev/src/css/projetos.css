@@ -1,9 +1,35 @@
 .slidesProjects {
-  width: 50%;
-  height: max-content;
-  margin: auto;
+  width: 100%;
+
+  margin-left: 20%;
+  margin-right: 2%;
 }
 
-.mysqlP, .mongoP, .jorelP, .starwarsP, .recipesP, .walletP, .rickP {
-  background-color: rgb(175, 167, 167);
+.titleProject {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1%;
+}
+
+.projectsInfo {
+  display: flex;
+  padding: 1%;
+}
+
+.walletRepo, .walletApp, .talkerRepo, .rickRepo,
+  .rickApp, .spotRepo {
+  display: flex;
+  justify-content: baseline;
+  padding: 0.5%;
+}
+
+aside {
+  padding-left: 3%;
+}
+
+article {
+  width: 50%;
+  text-align: justify;
 }

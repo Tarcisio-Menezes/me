@@ -1,12 +1,6 @@
-footer {
-  position: fixed;
-  bottom: 0;
-  left:0;
-  margin-left: 40%;
-}
-
-.footer p {
-  margin-top: auto;
-  text-align: center;
-  width: 100%;
+.footer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

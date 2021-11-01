@@ -10,150 +10,139 @@ import walletLogo from '../images/walletLogo.png';
 import rickLogo from '../images/rickLogo.png';
 import Footer from '../components/footer';
 import '../css/projetos.css';
+import { Link } from 'react-router-dom';
 
 function Projects() {
   return (
     <div>
       <Nav />
-      <section>
+      <section className="titleProject">
         <h2>
-          Sobre meus projetos
+          Alguns dos meus projetos
         </h2>
+        <Link to="/Contato">
+          <p>
+            Conheça sobre meus trabalhos mais atuais visitando minhas redes.
+          </p>
+        </Link>
       </section>
-      <section className="projectsRepo">
-        <h3>Trybe Wallet</h3>
-        <p>
-          <img src={ repoGit } width="1.5%" alt="Logo do repositório Git " />
-          <a 
-            href="https://github.com/Tarcisio-Menezes/trybeWallet"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Link para o repositório
-          </a>
-          <img src={ walletLogo } width="1.5%" alt="Logo da aplicação Wallet" />
-          <a 
-            href="https://tarcisio-menezes.github.io/trybeWallet/"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Link para a aplicação
-          </a>
-        </p>
-        <h3>Talker Manager</h3>
-        <p>
-          <img src={ repoGit } width="1.5%" alt="Logo do repositório Git " />
-          <a 
-            href="https://github.com/Tarcisio-Menezes/Project-Talker-Manager"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Link para o repositório
-          </a>
-        </p>
-        <h3>Rick and Morty Page</h3>
-        <p>
-          <img src={ repoGit } width="1.5%" alt="Logo do repositório Git " />
-          <a 
-            href="https://github.com/Tarcisio-Menezes/rickandmortpage"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Link para o repositório
-          </a>
-          <img src={ rickLogo } width="3%" alt="Logo da aplicação Rick and Morty page" />
-          <a 
-            href="https://tarcisio-menezes.github.io/rickandmortpage/"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Link para a aplicação
-          </a>
-        </p>
-        <h3>Spotify Simple Clone</h3>
-        <p>
-          <img src={ repoGit } width="1.5%" alt="Logo do repositório Git " />
-          <a 
-            href="https://github.com/Tarcisio-Menezes/MySql-One-for-all"
-            target="_blank" 
-            rel="noreferrer"
-          >
-            Link para o repositório
-          </a>
-        </p>
+      <section className="projectsInfo">
         <div className="slidesProjects">
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={ walletProject }
-                alt="First slide - Project Trybe Wallet"
-              />
-              <Carousel.Caption className="walletP">
-                <h3>Project Trybe Wallet</h3>
-                <p>
-                Nesta aplicação é possível registrar e converter despesas, 
-                em diferentes taxas de câmbio, para o real, de forma simples e organizada.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={ talkerProject }
-                alt="Second slide - Project Talker Manager"
-              />
-              <Carousel.Caption className ="recipesP">
-                <h3>Project Talker Manager</h3>
-                <p>
-                Talker Manager é uma API CRUD (Create, Read, Update e Delete) de 
-                palestrantes, que utiliza o módulo fs, sem qualquer interação 
-                com banco de dados.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={ rickProject }
-                alt="Three slide - Rick and Morty page"
-              />
-              <Carousel.Caption className ="rickP">
-                <h3>Rick and Morty page</h3>
-                <p>
-                Procure pelos seus personagens favoritos e alguns episódios 
-                do seriado Rick and Morty.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={ mysqlProject }
-                alt="Four slide - Spotfy clone"
-              />
-              <Carousel.Caption  className ="mysqlP">
-                <h3>Spotfy Clone</h3>
-                <p>
-                Spotify Simple Clone é uma série de comandos e queries 
-                que modela um banco de dados MySQL.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </div>
-      </section>
-      <div className="moreJobs">
-        <h3> 
-          <a 
-            href="https://github.com/Tarcisio-Menezes"
-            target="_blank" 
-            rel="noreferrer"
-          > 
-            Conheça meus projetos mais atuais visitando minha página no gitHub
-          </a>
-        </h3>
-      </div>
+            <Carousel>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ walletProject }
+                  alt="First slide - Project Trybe Wallet"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ talkerProject }
+                  alt="Second slide - Project Talker Manager"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ rickProject }
+                  alt="Three slide - Rick and Morty page"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ mysqlProject }
+                  alt="Four slide - Spotfy clone"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </div>
+          <aside className="projectsRepo">
+            <h3>Trybe Wallet</h3>
+            <article>
+              Nesta aplicação é possível registrar e converter despesas, 
+              em diferentes taxas de câmbio, para o real, de forma simples e organizada.
+            </article>
+            <div class="walletRepo">
+              <img src={ repoGit } width="5%" alt="Logo do repositório Git " />
+              <a 
+                href="https://github.com/Tarcisio-Menezes/trybeWallet"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <p>Link para o repositório</p>
+              </a>
+            </div>
+            <div className="walletApp">
+              <img src={ walletLogo } width="5%" alt="Logo da aplicação Wallet" />
+              <a 
+                href="https://tarcisio-menezes.github.io/trybeWallet/"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <p>Link para a aplicação</p>
+              </a>
+            </div>
+            <h3>Talker Manager</h3>
+            <article>
+              Talker Manager é uma API CRUD (Create, Read, Update e Delete) de 
+              palestrantes, que utiliza o módulo fs, sem qualquer interação 
+              com banco de dados.
+            </article>
+            <div className="talkerRepo">
+              <img src={ repoGit } width="5%" alt="Logo do repositório Git " />
+              <a 
+                href="https://github.com/Tarcisio-Menezes/Project-Talker-Manager"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <p>Link para o repositório</p>
+              </a>
+            </div>
+            <h3>Rick and Morty Page</h3>
+            <article>
+              Procure pelos seus personagens favoritos e alguns episódios 
+              do seriado Rick and Morty.
+            </article>
+            <div className="rickRepo">
+              <img src={ repoGit } width="5%" alt="Logo do repositório Git " />
+              <a 
+                href="https://github.com/Tarcisio-Menezes/rickandmortpage"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <p>Link para o repositório</p>
+              </a>
+            </div>
+            <div className="rickApp">
+              <img src={ rickLogo } width="8%" alt="Logo da aplicação Rick and Morty page" />
+              <a 
+                href="https://tarcisio-menezes.github.io/rickandmortpage/"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <p>Link para a aplicação</p>
+              </a>
+            </div>
+            <h3>Spotify Simple Clone</h3>
+            <article> 
+              Spotify Simple Clone é uma série de comandos e queries 
+              que modela um banco de dados MySQL.
+            </article>
+            <div className="spotRepo">
+              <img src={ repoGit } width="5%" alt="Logo do repositório Git " />
+              <a 
+                href="https://github.com/Tarcisio-Menezes/MySql-One-for-all"
+                target="_blank" 
+                rel="noreferrer"
+              >
+                <p>Link para o repositório</p>
+              </a>
+            </div>
+          </aside>
+        </section>
       <Footer />
     </div>
   );
