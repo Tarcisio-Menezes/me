@@ -13,7 +13,7 @@ function Home() {
         Tarcísio A R Menezes
       </h1>
       <hr />
-      <p>
+      <p className="paragraphHome">
       Desenvolvedor Full-Stack com experiência em Node JS, MongoDB, MySQL, 
       JavaScript, React, HTML, Jest, CSS dentre outras tecnologias.
       </p>

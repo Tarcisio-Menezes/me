@@ -8,11 +8,11 @@
   margin-top: 10%;
 }
 
-.home p, a {
+.home a, p {
   align-self: center;
 }
 
-.home p {
+.home .paragraphHome {
   text-align: center;
   width: 35%;
 }
