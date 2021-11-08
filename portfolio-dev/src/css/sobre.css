@@ -38,3 +38,24 @@
 .techs .reactDiv {
   max-width: 20%;
 }
+
+@media screen and (max-width: 680px) {
+  .about .paragraphAbout {
+    align-self: center;
+    width: 80%;
+    text-align: center;
+  }
+
+  .about h3 {
+    align-self: center;
+    text-align: center;
+  }
+
+  .techs {
+    flex-direction: column;
+  }
+
+  .techs .reactDiv {
+    max-width: 100%;
+  }
+}
