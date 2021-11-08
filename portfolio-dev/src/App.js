@@ -1,10 +1,10 @@
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
 import ErrorPage from './pages/ErrorPage';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

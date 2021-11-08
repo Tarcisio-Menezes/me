@@ -1,8 +1,6 @@
 .slidesProjects {
-  width: 100%;
-
-  margin-left: 20%;
-  margin-right: 2%;
+  width: 130%;
+  margin: 2%;
 }
 
 .titleProject {
@@ -26,7 +24,8 @@
 }
 
 aside {
-  padding-left: 3%;
+  margin-left: 10%;
+  margin-right: -10%;
 }
 
 article {
