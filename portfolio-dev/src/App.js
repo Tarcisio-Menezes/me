@@ -12,9 +12,9 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={ Home } />
-      <Route path="/sobre" component={ Sobre } />
-      <Route path="/projetos" component={ Projetos } />
-      <Route path="/contato" component={ Contato } />
+      <Route exact path="/sobre" component={ Sobre } />
+      <Route exact path="/projetos" component={ Projetos } />
+      <Route exact path="/contato" component={ Contato } />
       <Route path="/*" component={ ErrorPage } />
     </Switch>
   );
