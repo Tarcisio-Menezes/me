@@ -1,11 +1,19 @@
-.navigator {
+section.navigator {
   color:rgb(0, 0, 0);
   display: flex;
   padding: 1%;
   justify-content: space-around;
 }
 
-.navigator a {
+section.navigator a {
   color:rgb(0, 0, 0);
   text-decoration: none;
+}
+
+@media screen and (max-width: 680px) {
+  section.navigator {
+    flex-wrap: wrap;
+    margin: 6%;
+    justify-content: space-around;
+  }
 }

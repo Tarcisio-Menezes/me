@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from '../components/nav';
 import goku from '../images/goku.png';
-import Footer from '../components/footer';
 
 function ErrorPage() {
   return (
@@ -15,7 +14,11 @@ function ErrorPage() {
         width="20%"
         alt="Goku irritado por não encontrar o caminho"
       />
-      <Footer />
+      <footer className="footer">
+        <p>
+          Copyright © 2021 - Tarcísio Menezes Desenvolvedor Full-Stack
+        </p>
+      </footer>
     </div>
   );
 }

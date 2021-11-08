@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
-import Footer from '../components/footer';
 import '../css/home.css';
 
 function Home() {
@@ -14,17 +13,21 @@ function Home() {
       </h1>
       <hr />
       <p className="paragraphHome">
-      Desenvolvedor Full-Stack com experiência em Node JS, MongoDB, MySQL, 
-      JavaScript, React, HTML, Jest, CSS dentre outras tecnologias.
+        Desenvolvedor Full-Stack com experiência em Node JS, MongoDB, MySQL,
+        JavaScript, React, HTML, Jest, CSS dentre outras tecnologias.
       </p>
       <Link to="/sobre">
-        <Button 
+        <Button
           variant="outline-secondary"
         >
           Conheça mais
         </Button>
       </Link>
-      <Footer />
+      <footer className="homeFooter">
+        <p>
+          Copyright © 2021 - Tarcísio Menezes Desenvolvedor Full-Stack
+        </p>
+      </footer>
     </div>
   );
 }
