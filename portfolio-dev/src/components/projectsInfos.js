@@ -1,6 +1,7 @@
 import React from 'react';
 
 function projectsInfo() {
+  const repo = <p>Link para o repositório</p>;
   return (
     <aside className="projectsRepo">
       <h3>Full-Stack Task-List</h3>
@@ -15,7 +16,7 @@ function projectsInfo() {
           target="_blank"
           rel="noreferrer"
         >
-          <p>Link para o repositório</p>
+          { repo }
         </a>
       </div>
       <h3>Trybe Wallet</h3>
@@ -29,7 +30,7 @@ function projectsInfo() {
           target="_blank"
           rel="noreferrer"
         >
-          <p>Link para o repositório</p>
+          { repo }
         </a>
       </div>
       <div className="walletApp">
@@ -53,7 +54,7 @@ function projectsInfo() {
           target="_blank"
           rel="noreferrer"
         >
-          <p>Link para o repositório</p>
+          { repo }
         </a>
       </div>
     </aside>
