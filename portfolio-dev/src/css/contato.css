@@ -50,3 +50,26 @@ section.contactButton .contactTel{
   align-self: center;
   margin: auto;
 }
+
+@media screen and (max-width: 680px) {
+  .contactTitle {
+    width: 90%;
+  }
+
+  section.contactButton a {
+    width: 60%;
+  }
+
+  section.contactLogos {
+    margin-left: 30%;
+  }
+
+  section.contactLogos img {
+    width: 30%;
+  }
+
+  .contactTel img {
+    margin-top: 2%;
+    width: 10%;
+  }
+}
