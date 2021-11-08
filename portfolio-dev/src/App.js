@@ -6,6 +6,7 @@ import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
 import ErrorPage from './pages/ErrorPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/app.css';
 
 function App() {
   return (

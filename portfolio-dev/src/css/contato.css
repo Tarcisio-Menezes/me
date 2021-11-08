@@ -21,6 +21,12 @@ section.contactLogos {
   margin-top: 3%;
 }
 
+section.contactLogos img:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 section.contactButton {
   display: flex;
   flex-direction: column;

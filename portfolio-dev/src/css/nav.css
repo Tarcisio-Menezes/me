@@ -1,8 +1,14 @@
 section.navigator {
   color:rgb(0, 0, 0);
   display: flex;
+  opacity: 70%;
   padding: 1%;
   justify-content: space-around;
+}
+
+section.navigator:hover {
+  background-color: rgb(199, 197, 197);
+  opacity: 100%;
 }
 
 section.navigator a {
