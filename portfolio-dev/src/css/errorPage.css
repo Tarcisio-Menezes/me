@@ -1,0 +1,26 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.errorPage img {
+  align-self: center;
+}
+
+.errorFooter {
+  margin-left: 40%;
+  position:absolute;
+  bottom:0;
+  text-align: center;
+}  
+
+@media screen and (max-width: 680px) {
+  .errorFooter {
+    margin-left: auto;
+  }
+
+  .errorPage img {
+    width: 50%;
+  }
+}

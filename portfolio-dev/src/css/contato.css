@@ -1,0 +1,75 @@
+.contactTitle {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  width: 60%;
+}
+
+div.contactTitle h1 {
+  align-self: center;
+  text-align: center;
+}
+
+.contactSub {
+  align-self: center;
+  text-align: center;
+}
+
+section.contactLogos {
+  margin-left: 47%;
+  margin-top: 3%;
+}
+
+section.contactButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+section.contactButton a {
+  align-self: center;
+  margin-top: 5%;
+  width: 15%;
+}
+
+section.contactButton .contactTel{
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.contactTel {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.contactTel img {
+  align-self: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 680px) {
+  .contactTitle {
+    width: 90%;
+  }
+
+  section.contactButton a {
+    width: 60%;
+  }
+
+  section.contactLogos {
+    margin-left: 30%;
+  }
+
+  section.contactLogos img {
+    width: 30%;
+  }
+
+  .contactTel img {
+    margin-top: 2%;
+    width: 10%;
+  }
+}

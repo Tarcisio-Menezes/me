@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home h1 {
+  align-self: center;
+  margin-top: 10%;
+}
+
+.home a, p {
+  align-self: center;
+}
+
+.home .paragraphHome {
+  text-align: center;
+  width: 35%;
+}
+
+.home hr {
+  align-self: center;
+  width: 15%;
+}
+
+footer.homeFooter {
+  align-self: center;
+  position:absolute;
+  bottom:0;
+}
+
+@media screen and (max-width: 680px) {
+  footer.homeFooter {
+    text-align: center;
+  }
+
+  .home h1 {
+    margin-top: 6%;
+  }
+}

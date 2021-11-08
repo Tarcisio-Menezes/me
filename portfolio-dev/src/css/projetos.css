@@ -1,0 +1,79 @@
+.slidesProjects {
+  width: 130%;
+  margin: 2%;
+}
+
+.titleProject {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1%;
+}
+
+.projectsInfo {
+  display: flex;
+  padding: 1%;
+}
+
+.projectsRepo {
+  width: 70%;
+}
+
+.walletRepo, .walletApp, .talkerRepo, .rickRepo,
+  .rickApp, .spotRepo {
+  display: flex;
+  justify-content: baseline;
+}
+
+aside {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+article {
+  width: 50%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 680px) {
+  .projectsInfo {
+    flex-direction: column;
+  }
+
+  .slidesProjects {
+    margin: auto;
+    width: 90%;
+  }
+
+  aside {
+    margin: auto;
+  }
+
+  article {
+    margin: 1%;
+    padding: 1%;
+    text-align: justify;
+  }
+
+  .walletRepo, .walletApp, .talkerRepo, .rickRepo,
+  .rickApp, .spotRepo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  aside.projectsRepo {
+    margin: auto;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  aside.projectsRepo article {
+    margin-left: 25%;
+  }
+
+  aside.projectsRepo h3, a {
+    text-align: center;
+  }
+}
