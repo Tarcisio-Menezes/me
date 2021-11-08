@@ -6,7 +6,7 @@ function Nav() {
   return (
     <section className="navigator">
       <h3>
-        Desenvolvedor Full Stack
+        Desenvolvedor Back-end
       </h3>
       <nav>
         <Link to="/">
