@@ -2,7 +2,7 @@ import React from 'react';
 
 function projectsInfoNew() {
   return (
-    <div>
+    <aside className="projectsRepo">
       <h3>Rick and Morty Page</h3>
       <article>
         Procure pelos seus personagens favoritos e alguns episódios
@@ -40,7 +40,7 @@ function projectsInfoNew() {
           <p>Link para o repositório</p>
         </a>
       </div>
-    </div>
+    </aside>
   );
 }
 

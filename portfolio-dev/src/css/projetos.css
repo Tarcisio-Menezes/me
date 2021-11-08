@@ -20,7 +20,6 @@
   .rickApp, .spotRepo {
   display: flex;
   justify-content: baseline;
-  padding: 0.5%;
 }
 
 aside {
@@ -31,4 +30,46 @@ aside {
 article {
   width: 50%;
   text-align: justify;
+}
+
+@media screen and (max-width: 680px) {
+  .projectsInfo {
+    flex-direction: column;
+  }
+
+  .slidesProjects {
+    margin: auto;
+    width: 90%;
+  }
+
+  aside {
+    margin: auto;
+  }
+
+  article {
+    margin: 1%;
+    padding: 1%;
+    text-align: justify;
+  }
+
+  .walletRepo, .walletApp, .talkerRepo, .rickRepo,
+  .rickApp, .spotRepo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  aside.projectsRepo {
+    margin: auto;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  aside.projectsRepo article {
+    margin-left: 25%;
+  }
+
+  aside.projectsRepo h3, a {
+    text-align: center;
+  }
 }
