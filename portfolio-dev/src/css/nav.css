@@ -1,7 +1,13 @@
 section.navigator {
   display: flex;
+  height: min-content;
   padding: 1%;
   justify-content: space-around;
+}
+
+nav {
+  align-items: center;
+  display: flex;
 }
 
 section.navigator:hover {

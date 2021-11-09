@@ -29,31 +29,61 @@ function About() {
       </h3>
       <section className="techs">
         <div>
-          <img src={ nodeLogo } alt="Logo NodeJS" width="40%" />
+          <a
+            href="https://nodejs.org/en/docs/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={ nodeLogo } alt="Logo NodeJS" width="40%" />
+          </a>
           <p>
             Testes e desenvolvimento de aplicações e APIs.
           </p>
         </div>
         <div>
-          <img src={ mysqlLogo } alt="Logo mySQL" width="35%" />
+          <a
+            href="https://dev.mysql.com/doc/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={ mysqlLogo } alt="Logo mySQL" width="35%" />
+          </a>
           <p>
             Mais performance em suas queries.
           </p>
         </div>
         <div>
-          <img src={ mongoLogo } alt="Logo MongoDB" width="40%" />
+          <a
+            href="https://docs.mongodb.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={ mongoLogo } alt="Logo MongoDB" width="40%" />
+          </a>
           <p>
             Banco de dados não relacional com MongoDB.
           </p>
         </div>
         <div className="reactDiv">
-          <img src={ reactLogo } alt="Logo ReactJS" width="35%" />
+          <a
+            href="https://pt-br.reactjs.org/docs/getting-started.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={ reactLogo } alt="Logo ReactJS" width="35%" />
+          </a>
           <p>
             Páginas ágeis para a sua estrutura front-end.
           </p>
         </div>
         <div>
-          <img src={ cssLogo } alt="Logo CSS3" width="40%" />
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={ cssLogo } alt="Logo CSS3" width="40%" />
+          </a>
           <p>
             Estilizações com CSS.
           </p>
