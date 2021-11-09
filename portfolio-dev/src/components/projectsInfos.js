@@ -7,7 +7,7 @@ function projectsInfo() {
       <h3>Full-Stack Task-List</h3>
       <article>
         Esta aplicação utiliza a stack MERN e consiste no gerenciamento de
-        tarefas rápidas. Ideal para o tornar o ambiente de trabalho mais organizado
+        tarefas rápidas. Ideal para tornar o ambiente de trabalho mais organizado
         e consequentemente mais produtivo.
       </article>
       <div className="spotRepo">
