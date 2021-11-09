@@ -16,6 +16,6 @@ section.navigator a {
 @media screen and (max-width: 680px) {
   section.navigator {
     flex-wrap: wrap;
-    margin: 15%;
+    margin: 10%;
   }
 }
