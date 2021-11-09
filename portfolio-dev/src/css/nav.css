@@ -19,7 +19,7 @@ section.navigator a {
 @media screen and (max-width: 680px) {
   section.navigator {
     flex-wrap: wrap;
-    margin: 6%;
+    margin: 7%;
     justify-content: space-around;
   }
 }
