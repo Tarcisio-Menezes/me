@@ -15,10 +15,10 @@ function Contact() {
         <h1>
           Fale comigo!
         </h1>
-        <h3 className="contactSub">
+        <h4 className="contactSub">
           Se procura alguém para desenvolver aplicações web com o que há
           de mais moderno no mundo dev, entre em contato!
-        </h3>
+        </h4>
         <h4 className="contactSub">
           <a
             href="https://drive.google.com/file/d/1IUxqWsJYDk0Se4z738YgorJ-DJNccdK_/view?usp=sharing"

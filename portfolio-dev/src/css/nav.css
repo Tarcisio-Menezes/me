@@ -1,7 +1,13 @@
 section.navigator {
   display: flex;
+  height: min-content;
   padding: 1%;
   justify-content: space-around;
+}
+
+nav {
+  align-items: center;
+  display: flex;
 }
 
 section.navigator:hover {
@@ -16,6 +22,6 @@ section.navigator a {
 @media screen and (max-width: 680px) {
   section.navigator {
     flex-wrap: wrap;
-    margin: 10%;
+    margin: 12%;
   }
 }

@@ -9,7 +9,6 @@ import walletProject from '../images/wallet.png';
 import mysqlProject from '../images/spotifyclone.png';
 import taskProject from '../images/task.png';
 import projectsInfo from '../components/projectsInfos';
-import projectsInfoNew from '../components/projectsInfoNew';
 import '../css/projetos.css';
 
 function Projects() {
@@ -67,7 +66,6 @@ function Projects() {
           </Carousel>
         </div>
         { projectsInfo() }
-        { projectsInfoNew() }
       </section>
     </div>
   );
