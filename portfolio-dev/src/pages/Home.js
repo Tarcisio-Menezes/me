@@ -25,7 +25,7 @@ function Home() {
       </Link>
       <footer className="homeFooter">
         <p>
-          Copyright © 2021 - Tarcísio Menezes Desenvolvedor Full-Stack
+          Copyright © 2021 - Tarcísio Menezes Desenvolvedor Back-end
         </p>
       </footer>
     </div>
