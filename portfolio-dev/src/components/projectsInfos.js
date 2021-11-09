@@ -3,9 +3,10 @@ import { Card } from 'react-bootstrap';
 
 function projectsInfo() {
   const repo = <p>Link para o repositório</p>;
+  const aplication = <p>Link para a aplicação</p>;
   return (
     <aside className="projectsRepo">
-      <Card style={ { width: '18rem' } }>
+      <Card style={ { width: '13rem' } } className="card">
         <Card.Body>
           <Card.Title>Full-Stack Task-List</Card.Title>
           <Card.Text>
@@ -24,7 +25,7 @@ function projectsInfo() {
           </div>
         </Card.Body>
       </Card>
-      <Card style={ { width: '18rem' } }>
+      <Card style={ { width: '13rem' } } className="card">
         <Card.Body>
           <Card.Title>Trybe Wallet</Card.Title>
           <Card.Text>
@@ -46,12 +47,12 @@ function projectsInfo() {
               target="_blank"
               rel="noreferrer"
             >
-              Link para a aplicação
+              { aplication }
             </Card.Link>
           </div>
         </Card.Body>
       </Card>
-      <Card style={ { width: '18rem' } }>
+      <Card style={ { width: '13rem' } } className="card">
         <Card.Body>
           <Card.Title>Talker Manager</Card.Title>
           <Card.Text>
@@ -62,6 +63,51 @@ function projectsInfo() {
           <div className="talkerRepo">
             <Card.Link
               href="https://github.com/Tarcisio-Menezes/Project-Talker-Manager"
+              target="_blank"
+              rel="noreferrer"
+            >
+              { repo }
+            </Card.Link>
+          </div>
+        </Card.Body>
+      </Card>
+      <Card style={ { width: '13rem' } } className="card">
+        <Card.Body>
+          <Card.Title>Rick and Morty Page</Card.Title>
+          <Card.Text>
+            Procure pelos seus personagens favoritos e alguns episódios
+            do seriado Rick and Morty.
+          </Card.Text>
+          <div className="rickRepo">
+            <Card.Link
+              href="https://github.com/Tarcisio-Menezes/rickandmortpage"
+              target="_blank"
+              rel="noreferrer"
+            >
+              { repo }
+            </Card.Link>
+          </div>
+          <div className="rickApp">
+            <Card.Link
+              href="https://tarcisio-menezes.github.io/rickandmortpage/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              { aplication }
+            </Card.Link>
+          </div>
+        </Card.Body>
+      </Card>
+      <Card style={ { width: '13rem' } } className="card">
+        <Card.Body>
+          <Card.Title>Spotify Simple Clone</Card.Title>
+          <Card.Text>
+            Spotify Simple Clone é uma série de comandos e queries
+            que modela um banco de dados MySQL.
+          </Card.Text>
+          <div className="spotRepo">
+            <Card.Link
+              href="https://github.com/Tarcisio-Menezes/MySql-One-for-all"
               target="_blank"
               rel="noreferrer"
             >

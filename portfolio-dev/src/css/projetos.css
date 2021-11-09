@@ -1,5 +1,5 @@
 .slidesProjects {
-  width: 130%;
+  width: 100%;
   margin: 2%;
 }
 
@@ -17,23 +17,14 @@
 }
 
 .projectsRepo {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: space-around;
   width: 70%;
 }
 
-.walletRepo, .walletApp, .talkerRepo, .rickRepo,
-  .rickApp, .spotRepo {
-  display: flex;
-  justify-content: baseline;
-}
-
-aside {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-article {
-  width: 50%;
-  text-align: justify;
+.card {
+  margin: 1%;
 }
 
 @media screen and (max-width: 680px) {
@@ -41,7 +32,7 @@ article {
     flex-direction: column;
   }
 
-  .slidesProjects {
+  .slidesProjects, .card {
     margin: auto;
     width: 90%;
   }
@@ -50,30 +41,13 @@ article {
     margin: auto;
   }
 
-  article {
-    margin: 1%;
-    padding: 1%;
-    text-align: justify;
-  }
-
-  .walletRepo, .walletApp, .talkerRepo, .rickRepo,
-  .rickApp, .spotRepo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
   aside.projectsRepo {
     margin: auto;
     margin-top: 5%;
     width: 100%;
   }
 
-  aside.projectsRepo article {
-    margin-left: 25%;
-  }
-
-  aside.projectsRepo h3, a {
-    text-align: center;
+  .card {
+    margin-bottom: 3%;
   }
 }
