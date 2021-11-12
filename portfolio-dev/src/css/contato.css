@@ -1,3 +1,8 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
 .contactTitle {
   display: flex;
   flex-direction: column;

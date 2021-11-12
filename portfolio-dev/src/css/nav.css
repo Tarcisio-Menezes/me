@@ -1,6 +1,5 @@
 section.navigator {
   display: flex;
-  margin-top: 0;
   justify-content: space-around;
   padding: 1%;
 }
