@@ -5,7 +5,7 @@ import '../css/errorPage.css';
 
 function ErrorPage() {
   return (
-    <div>
+    <div className="error">
       <Nav />
       <section className="errorPage">
         <h2>

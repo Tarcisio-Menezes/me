@@ -8,17 +8,17 @@ import '../css/contato.css';
 
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <Nav />
       <div className="contactTitle">
         <br />
         <h1>
           Fale comigo!
         </h1>
-        <h4 className="contactSub">
+        <p className="contactSub">
           Se procura alguém para desenvolver aplicações web com o que há
           de mais moderno no mundo dev, entre em contato!
-        </h4>
+        </p>
         <h4 className="contactSub">
           <a
             href="https://drive.google.com/file/d/1IUxqWsJYDk0Se4z738YgorJ-DJNccdK_/view?usp=sharing"
@@ -29,7 +29,6 @@ function Contact() {
           </a>
         </h4>
       </div>
-      <br />
       <section className="contactLogos">
         <a
           href="https://github.com/Tarcisio-Menezes"

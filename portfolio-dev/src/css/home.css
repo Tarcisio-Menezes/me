@@ -5,7 +5,7 @@
 
 .home h1 {
   align-self: center;
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
 .home a, p {
@@ -22,15 +22,22 @@
   width: 15%;
 }
 
-footer.homeFooter {
+.home .homePerfil {
   align-self: center;
-  position:absolute;
-  bottom:0;
+  border-radius: 100%;
+  margin-top: 1%;
+  width: 10%;
+}
+
+.home .homePerfil:active {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 @media screen and (max-width: 680px) {
-  footer.homeFooter {
-    text-align: center;
+  .home {
+    margin-top: -5%;
   }
 
   .home h1 {
@@ -39,5 +46,9 @@ footer.homeFooter {
 
   .home .paragraphHome {
     width: 55%;
+  }
+
+  .home .homePerfil {
+    width: 20%;
   }
 }
