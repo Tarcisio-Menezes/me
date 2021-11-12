@@ -1,5 +1,6 @@
 .error {
-  margin-top: -3%;
+  display: flex;
+  flex-direction: column;
 }
 
 .errorPage {
@@ -20,6 +21,10 @@
 }  
 
 @media screen and (max-width: 680px) {
+  .error {
+    margin-top: -3%;
+  }
+
   .errorFooter {
     margin-left: auto;
   }

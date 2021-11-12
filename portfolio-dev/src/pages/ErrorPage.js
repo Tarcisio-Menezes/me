@@ -17,11 +17,6 @@ function ErrorPage() {
           alt="Goku irritado por não encontrar o caminho"
         />
       </section>
-      <footer className="errorFooter">
-        <p>
-          Copyright © 2021 - Tarcísio Menezes Desenvolvedor Full-Stack
-        </p>
-      </footer>
     </div>
   );
 }
