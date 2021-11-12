@@ -13,7 +13,7 @@ import '../css/projetos.css';
 
 function Projects() {
   return (
-    <div>
+    <div className="projects">
       <Nav />
       <section className="titleProject">
         <h2>

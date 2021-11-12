@@ -58,6 +58,10 @@ section.contactButton .contactTel{
 }
 
 @media screen and (max-width: 680px) {
+  .contact {
+    margin-top: -5%;
+  }
+
   .contactTitle {
     width: 90%;
   }

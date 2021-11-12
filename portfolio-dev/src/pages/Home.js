@@ -2,14 +2,20 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
+import perfilPhoto from '../images/perfil.jpeg';
 import '../css/home.css';
 
 function Home() {
   return (
     <div className="home">
       <Nav />
+      <img
+        className="homePerfil"
+        src={ perfilPhoto }
+        alt="Foto de perfil de Tarcísio"
+      />
       <h1>
-        Tarcísio A R Menezes
+        Tarcísio Menezes
       </h1>
       <hr />
       <p className="paragraphHome">
@@ -23,11 +29,6 @@ function Home() {
           Conheça mais
         </Button>
       </Link>
-      <footer className="homeFooter">
-        <p>
-          Copyright © 2021 - Tarcísio Menezes Desenvolvedor Back-end
-        </p>
-      </footer>
     </div>
   );
 }
