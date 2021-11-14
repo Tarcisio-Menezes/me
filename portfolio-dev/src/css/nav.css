@@ -24,3 +24,10 @@ section.navigator a {
     margin: 12%;
   }
 }
+
+@media screen and (min-width: 680px) and (max-width: 880px) {
+  section.navigator {
+    flex-wrap: wrap;
+    margin: 15%;
+  }
+}
