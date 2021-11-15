@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Provider from './context/Provider';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
@@ -10,13 +11,15 @@ import './css/app.css';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/" component={ Home } />
-      <Route exact path="/sobre" component={ Sobre } />
-      <Route exact path="/projetos" component={ Projetos } />
-      <Route exact path="/contato" component={ Contato } />
-      <Route path="/*" component={ ErrorPage } />
-    </Switch>
+    <Provider>
+      <Switch>
+        <Route exact path="/" component={ Home } />
+        <Route exact path="/sobre" component={ Sobre } />
+        <Route exact path="/projetos" component={ Projetos } />
+        <Route exact path="/contato" component={ Contato } />
+        <Route path="/*" component={ ErrorPage } />
+      </Switch>
+    </Provider>
   );
 }
 
