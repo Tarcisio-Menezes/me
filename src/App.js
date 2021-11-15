@@ -10,7 +10,7 @@ import './css/app.css';
 
 function App() {
   return (
-    <Switch basename="/">
+    <Switch>
       <Route exact path="/" component={ Home } />
       <Route exact path="/sobre" component={ Sobre } />
       <Route exact path="/projetos" component={ Projetos } />
