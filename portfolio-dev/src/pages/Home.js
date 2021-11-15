@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
 import perfilPhoto from '../images/perfil.jpeg';
+import whereAmI from '../utils/whereAmI';
 import '../css/home.css';
 
 function Home() {
+  useEffect(() => {
+    whereAmI();
+  }, []);
+
   return (
     <div className="home">
       <Nav />

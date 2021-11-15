@@ -8,22 +8,22 @@ function Nav() {
       <h3>
         Desenvolvedor Back-end
       </h3>
-      <nav>
+      <nav className="homeLink">
         <Link to="/">
           Home
         </Link>
       </nav>
-      <nav>
+      <nav className="aboutLink">
         <Link to="/sobre">
           Sobre
         </Link>
       </nav>
-      <nav>
+      <nav className="projectsLink">
         <Link to="/projetos">
           Projetos
         </Link>
       </nav>
-      <nav>
+      <nav className="contactLink">
         <Link to="/contato">
           Contato
         </Link>

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-max-depth */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
@@ -9,9 +9,14 @@ import walletProject from '../images/wallet.png';
 import mysqlProject from '../images/spotifyclone.png';
 import taskProject from '../images/task.png';
 import projectsInfo from '../components/projectsInfos';
+import whereAmI from '../utils/whereAmI';
 import '../css/projetos.css';
 
 function Projects() {
+  useEffect(() => {
+    whereAmI();
+  }, []);
+
   return (
     <div className="projects">
       <Nav />

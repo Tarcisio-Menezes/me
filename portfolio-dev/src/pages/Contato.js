@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import Nav from '../components/nav';
 import gitLogo from '../images/git.png';
 import linkedinLogo from '../images/linkedin.png';
 import telLogo from '../images/tel.png';
+import whereAmI from '../utils/whereAmI';
 import '../css/contato.css';
 
 function Contact() {
+  useEffect(() => {
+    whereAmI();
+  }, []);
+
   return (
     <div className="contact">
       <Nav />
