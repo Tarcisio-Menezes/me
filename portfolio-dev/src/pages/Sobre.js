@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../components/nav';
 import nodeLogo from '../images/node.png';
 import mysqlLogo from '../images/mysql.png';
 import reactLogo from '../images/react.png';
 import mongoLogo from '../images/mongo.png';
 import cssLogo from '../images/css.png';
+import whereAmI from '../utils/whereAmI';
 import '../css/sobre.css';
 
 function About() {
+  useEffect(() => {
+    whereAmI('about');
+  }, []);
+
   return (
     <div className="about">
       <Nav />

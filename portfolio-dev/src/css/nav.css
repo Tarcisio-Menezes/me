@@ -18,16 +18,23 @@ section.navigator a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 480px) {
   section.navigator {
     flex-wrap: wrap;
-    margin: 12%;
+    margin: 10%;
   }
 }
 
-@media screen and (min-width: 680px) and (max-width: 880px) {
+@media screen and (max-width: 860px) and (min-width: 420px) {
   section.navigator {
     flex-wrap: wrap;
-    margin: 15%;
+    margin: 13%;
+  }
+}
+
+@media screen and (max-width: 731px) and (min-width: 411px) {
+  section.navigator {
+    flex-wrap: wrap;
+    margin: 13%;
   }
 }
