@@ -9,7 +9,7 @@ import '../css/contato.css';
 
 function Contact() {
   useEffect(() => {
-    whereAmI();
+    whereAmI('contact');
   }, []);
 
   return (

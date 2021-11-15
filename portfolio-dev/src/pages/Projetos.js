@@ -14,7 +14,7 @@ import '../css/projetos.css';
 
 function Projects() {
   useEffect(() => {
-    whereAmI();
+    whereAmI('projects');
   }, []);
 
   return (

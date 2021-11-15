@@ -10,7 +10,7 @@ import '../css/sobre.css';
 
 function About() {
   useEffect(() => {
-    whereAmI();
+    whereAmI('about');
   }, []);
 
   return (

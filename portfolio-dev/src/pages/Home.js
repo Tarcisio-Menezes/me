@@ -8,7 +8,7 @@ import '../css/home.css';
 
 function Home() {
   useEffect(() => {
-    whereAmI();
+    whereAmI('home');
   }, []);
 
   return (
