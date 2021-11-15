@@ -5,6 +5,7 @@ Página pessoal de projetos, como um cartão virtual
 
 * React.js
 * Componentes funcionais
+* Hooks
 * CSS
 * Bootstrap
 
