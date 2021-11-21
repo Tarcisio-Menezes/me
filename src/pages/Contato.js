@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import Nav from '../components/nav';
 import gitLogo from '../images/git.png';
 import linkedinLogo from '../images/linkedin.png';
-import telLogo from '../images/tel.png';
+import whatsLogo from '../images/whats.png';
 import whereAmI from '../utils/whereAmI';
 import '../css/contato.css';
 
@@ -64,6 +64,11 @@ function Contact() {
           href="http://api.whatsapp.com/send?1=pt_BR&phone=5516996314645"
           target="_blank"
         >
+          <img
+            src={ whatsLogo }
+            width="10%"
+            alt="WhatsApp logo"
+          />
           Enviar uma mensagem
         </Button>
         <div className="contactTel">
