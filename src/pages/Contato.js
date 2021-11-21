@@ -26,7 +26,7 @@ function Contact() {
         </p>
         <h4 className="contactSub">
           <a
-            href="https://drive.google.com/file/d/1IUxqWsJYDk0Se4z738YgorJ-DJNccdK_/view?usp=sharing"
+            href="https://drive.google.com/file/d/17742Bb21UoxP3vmzahjZzW7tJTI8t9Pz/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
