@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import Nav from '../components/nav';
 import gitLogo from '../images/git.png';
 import linkedinLogo from '../images/linkedin.png';
-import telLogo from '../images/tel.png';
+import whatsLogo from '../images/whats.png';
 import whereAmI from '../utils/whereAmI';
 import '../css/contato.css';
 
@@ -26,7 +26,7 @@ function Contact() {
         </p>
         <h4 className="contactSub">
           <a
-            href="https://drive.google.com/file/d/1IUxqWsJYDk0Se4z738YgorJ-DJNccdK_/view?usp=sharing"
+            href="https://drive.google.com/file/d/17742Bb21UoxP3vmzahjZzW7tJTI8t9Pz/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -64,15 +64,17 @@ function Contact() {
           href="http://api.whatsapp.com/send?1=pt_BR&phone=5516996314645"
           target="_blank"
         >
-          Enviar uma mensagem no WhatsApp
+          <img
+            src={ whatsLogo }
+            width="10%"
+            alt="WhatsApp logo"
+          />
+          Enviar uma mensagem
         </Button>
         <div className="contactTel">
-          <img
-            src={ telLogo }
-            width="2%"
-            alt="Smartphone logo"
-          />
-          <p>(16) 996314645</p>
+          <p>
+            (16) 996314645 - tarcisioquim@gmail.com
+          </p>
         </div>
       </section>
     </div>
