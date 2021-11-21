@@ -64,15 +64,12 @@ function Contact() {
           href="http://api.whatsapp.com/send?1=pt_BR&phone=5516996314645"
           target="_blank"
         >
-          Enviar uma mensagem no WhatsApp
+          Enviar uma mensagem
         </Button>
         <div className="contactTel">
-          <img
-            src={ telLogo }
-            width="2%"
-            alt="Smartphone logo"
-          />
-          <p>(16) 996314645</p>
+          <p>
+            (16) 996314645 - tarcisioquim@gmail.com
+          </p>
         </div>
       </section>
     </div>
