@@ -6,7 +6,9 @@ function Nav() {
   return (
     <section className="navigator">
       <h3>
-        Desenvolvedor Back-end
+        <Link to="/">
+          Desenvolvedor Full-stack
+        </Link>
       </h3>
       <nav className="homeLink">
         <Link to="/">

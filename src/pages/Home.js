@@ -24,7 +24,7 @@ function Home() {
       </h1>
       <hr />
       <p className="paragraphHome">
-        Desenvolvedor Back-end com experiência em Node JS, MongoDB, MySQL,
+        Desenvolvedor Full-stack com experiência em Node JS, MongoDB, MySQL,
         JavaScript, React, HTML, Jest, CSS dentre outras tecnologias.
       </p>
       <Link to="/sobre">
