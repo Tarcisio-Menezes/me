@@ -1,4 +1,5 @@
 const whereAmI = (page) => {
+  window.navigator.vibrate(100);
   const homeLink = document.getElementsByClassName('homeLink')[0];
   const aboutLink = document.getElementsByClassName('aboutLink')[0];
   const projectsLink = document.getElementsByClassName('projectsLink')[0];
