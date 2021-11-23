@@ -18,52 +18,17 @@ section.navigator a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+section.navigator h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 680px) {
   section.navigator {
     flex-wrap: wrap;
     margin: 10%;
   }
-}
 
-@media screen and (max-width: 860px) and (min-width: 420px) {
-  section.navigator {
-    flex-wrap: wrap;
-    margin: 13%;
-  }
-}
-
-@media screen and (max-width: 731px) and (min-width: 411px) {
-  section.navigator {
-    flex-wrap: wrap;
-    margin: 13%;
-  }
-}
-
-@media screen and (max-width: 860px) and (min-width: 400px) {
-  section.navigator {
-    flex-wrap: wrap;
-    margin: 14%;
-  }
-}
-
-@media screen and (max-width: 860px) and (min-width: 450px) {
-  section.navigator {
-    flex-wrap: wrap;
-    margin: 15%;
-  }
-}
-
-@media screen and (max-width: 860px) and (min-width: 480px) {
-  section.navigator {
-    flex-wrap: wrap;
-    margin: 16%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  section.navigator {
-    flex-wrap: wrap;
-    margin-left: 30%;
-    margin-right: 30%;
+  section.navigator .homeLink {
+    margin-left: 3%;
   }
 }
