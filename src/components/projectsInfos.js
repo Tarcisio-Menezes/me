@@ -31,7 +31,7 @@ function projectsInfo() {
           <Card.Text>
           MarsExplorer é uma aplicação full-stack, desenvolvida em Node.js, 
           MySQL e React.js, que proporciona uma viagem ao planeta vermelho sem sair da cadeira,
-          a todas pessoas cadastrados.
+          a todas pessoas cadastradas.
           </Card.Text>
           <div className="spotRepo">
             <Card.Link
