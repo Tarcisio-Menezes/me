@@ -8,6 +8,7 @@ import rickProject from '../images/rickandmorty.png';
 import walletProject from '../images/wallet.png';
 import mysqlProject from '../images/spotifyclone.png';
 import taskProject from '../images/task.png';
+import marsExplorer from '../images/mars.png'; 
 import projectsInfo from '../components/projectsInfos';
 import whereAmI from '../utils/whereAmI';
 import '../css/projetos.css';
@@ -59,6 +60,13 @@ function Projects() {
                 className="d-block w-100"
                 src={ mysqlProject }
                 alt="Four slide - Spotfy clone"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={ marsExplorer }
+                alt="Three slide - Rick and Morty page"
               />
             </Carousel.Item>
             <Carousel.Item>
