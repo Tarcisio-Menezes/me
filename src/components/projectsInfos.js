@@ -42,7 +42,7 @@ function projectsInfo() {
               { repo }
             </Card.Link>
             <Card.Link
-              href="mars-front-01.herokuapp.com/"
+              href="https://mars-front-01.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
