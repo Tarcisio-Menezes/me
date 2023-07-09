@@ -21,8 +21,9 @@ function Contact() {
           Fale comigo!
         </h1>
         <p className="contactSub">
-          Se procura alguém para desenvolver aplicações web com o que há
-          de mais moderno no mundo dev, entre em contato!
+          Aqui ainda está um pouco desatualizado, mas estou trabalhando
+          para melhorar. Qualquer dúvida consulte o Linkedin ou me mande
+          um whats!
         </p>
         <h4 className="contactSub">
           <a
