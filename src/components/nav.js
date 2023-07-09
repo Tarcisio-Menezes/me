@@ -7,7 +7,7 @@ function Nav() {
     <section className="navigator">
       <h3>
         <Link to="/">
-          Desenvolvedor Full-stack
+          Desenvolvedor Back-End
         </Link>
       </h3>
       <nav className="homeLink">
@@ -22,7 +22,7 @@ function Nav() {
       </nav>
       <nav className="projectsLink">
         <Link to="/projetos">
-          Projetos
+          Início de Carreira
         </Link>
       </nav>
       <nav className="contactLink">

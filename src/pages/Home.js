@@ -24,8 +24,8 @@ function Home() {
       </h1>
       <hr />
       <p className="paragraphHome">
-        Desenvolvedor Full-stack com experiência em Node JS, MongoDB, MySQL,
-        JavaScript, React, HTML, Jest, CSS dentre outras tecnologias.
+        Desenvolvedor Back-End com experiência em Kotlin, PostgreeSQL,
+        Spring e um pouco de JavaScript.
       </p>
       <Link to="/sobre">
         <Button
