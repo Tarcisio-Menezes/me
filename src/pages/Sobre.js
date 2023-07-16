@@ -11,15 +11,13 @@ function About() {
     whereAmI('about');
   }, []);
 
-  const [lastedUpdate] = useState(new Date());
-
-  const fomatedDate = moment(lastedUpdate).format('LLL');
+  const fomatedDate = '16-07-23';
 
   return (
     <div className="about">
       <Nav />
       <h2>
-        Minha história nesse mundão sem fim
+        Minha história
       </h2>
       <p className="paragraphAbout">
         Sou uma pessoa que sempre curtiu computadores,
