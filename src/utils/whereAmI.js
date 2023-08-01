@@ -4,6 +4,7 @@ const whereAmI = (page) => {
   const aboutLink = document.getElementsByClassName('aboutLink')[0];
   const projectsLink = document.getElementsByClassName('projectsLink')[0];
   const contactLink = document.getElementsByClassName('contactLink')[0];
+  const workLink = document.getElementsByClassName('workLink')[0];
 
   switch (page) {
   case 'home':
@@ -11,29 +12,41 @@ const whereAmI = (page) => {
     aboutLink.classList.remove('selected');
     projectsLink.classList.remove('selected');
     contactLink.classList.remove('selected');
+    workLink.classList.remove('selected');
     break;
   case 'about':
     aboutLink.classList.add('selected');
     homeLink.classList.remove('selected');
     projectsLink.classList.remove('selected');
     contactLink.classList.remove('selected');
+    workLink.classList.remove('selected');
     break;
   case 'projects':
     projectsLink.classList.add('selected');
     aboutLink.classList.remove('selected');
     homeLink.classList.remove('selected');
     contactLink.classList.remove('selected');
+    workLink.classList.remove('selected');
     break;
   case 'contact':
     contactLink.classList.add('selected');
     aboutLink.classList.remove('selected');
     projectsLink.classList.remove('selected');
     homeLink.classList.remove('selected');
+    workLink.classList.remove('selected');
     break;
+    case 'work':
+      workLink.classList.add('selected');
+      contactLink.classList.remove('selected');
+      aboutLink.classList.remove('selected');
+      projectsLink.classList.remove('selected');
+      homeLink.classList.remove('selected');
+      break;
   default:
     contactLink.classList.remove('selected');
     aboutLink.classList.remove('selected');
     projectsLink.classList.remove('selected');
+    workLink.classList.remove('selected');
     homeLink.classList.remove('selected');
   }
 };

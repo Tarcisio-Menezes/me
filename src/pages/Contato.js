@@ -22,7 +22,7 @@ function Contact() {
         </h1>
         <p className="contactSub">
           Aqui ainda está um pouco desatualizado, mas estou trabalhando
-          para melhorar. Qualquer dúvida consulte o Linkedin ou, melhor
+          para melhorar. Qualquer dúvida consulte o meu Linkedin, ou melhor,
           me mande um whats.
         </p>
         <h4 className="contactSub">

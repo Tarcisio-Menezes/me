@@ -1,17 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../components/nav';
 import { Link } from 'react-router-dom';
 import whereAmI from '../utils/whereAmI';
-import moment from 'moment';
-import { Badge } from 'react-bootstrap';
+import DateInfo from '../components/dateInfo'
 import '../css/sobre.css';
 
 function About() {
   useEffect(() => {
     whereAmI('about');
   }, []);
-
-  const fomatedDate = '16-07-23';
 
   return (
     <div className="about">
@@ -62,19 +59,13 @@ function About() {
         pouco sobre a base da programação e um tanto bom de JavaScript!
         Aqui acabei encanando com back-end, minhas apis ficavam demais.
         Quem quiser é só checar na aba de <Link to="/projetos">ínicio de carreira </Link>.
-        Isso foi no ano da pandemia de covid 19, ano terrível
+        Isso foi no ano da pandemia de covid 19, ano terrível,
         mas no fim dele conesegui minha primeira oportunidade
         como desenvolvedor back-end. Começaria então minha jornada na
         Digital Republic, trabalhando alocado na até então
         Donus, Soluções de pagamentos...
       </p>
-        <p className="paragraphAbout">
-          Agora vou começar a escrever aqui sempre que possível!
-          Até mais!
-          <Badge variant="secondary">
-            {`Última atualização: ${fomatedDate}`}
-          </Badge>
-        </p>
+      <DateInfo />
     </div>
   );
 }

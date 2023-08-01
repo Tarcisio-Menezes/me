@@ -25,6 +25,11 @@ function Nav() {
           Início de Carreira
         </Link>
       </nav>
+      <nav className="workLink">
+        <Link to="/trabalho">
+          Trabalho
+        </Link>
+      </nav>
       <nav className="contactLink">
         <Link to="/contato">
           Contato

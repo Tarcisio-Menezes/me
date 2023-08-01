@@ -5,6 +5,7 @@ import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
 import ErrorPage from './pages/ErrorPage';
+import Trabalho from './pages/Trabalho';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/app.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Route exact path="/sobre" component={ Sobre } />
       <Route exact path="/projetos" component={ Projetos } />
       <Route exact path="/contato" component={ Contato } />
+      <Route exact path="/trabalho" component={ Trabalho } />
       <Route path="/*" component={ ErrorPage } />
     </Switch>
   );

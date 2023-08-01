@@ -1,27 +1,27 @@
-.about {
+.work {
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
 
-.about a {
+.work a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-.about h2 {
+.work h2 {
   align-self: center;
   margin-top: 5%;
 }
 
-.about .paragraphAbout {
+.work .paragraphWork {
   align-self: center;
   width: 38%;
   text-align: center;
   padding: 0.5%;
 }
 
-.about h3 {
+.work h3 {
   align-self: center;
 }
 
@@ -30,17 +30,17 @@
 }
 
 @media screen and (max-width: 680px) {
-  .about {
+  .work {
     margin-top: -5%;
   }
 
-  .about .paragraphAbout {
+  .work .paragraphWork {
     align-self: center;
     width: 80%;
     text-align: center;
   }
 
-  .about h3 {
+  .work h3 {
     align-self: center;
     text-align: center;
   }
