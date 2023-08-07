@@ -16,8 +16,8 @@ function Work() {
         O kotlin e a orientação a objetos
       </h2>
       <p className="paragraphWork">
-        Não tem como outra coisa chamar mais a atenção do que
-        a orientação a objetos, famigerada (POO), de um programador
+        A orientação a objetos, famigerada (POO), é o 
+        primeiro ponto que chama a atenção de um programador
         em início de carreira, que veio de um contexto bastante
         funcional ali do JavaScript, com express, react ...
       </p>
