@@ -25,7 +25,8 @@ function Home() {
       <hr />
       <p className="paragraphHome">
         Desenvolvedor Back-End com experiência em Kotlin, PostgreeSQL,
-        Spring e um pouco de JavaScript.
+        Spring e um pouco de JavaScript. Atualmente trabalhando na
+        BEES Bank Brasil, uma empresa AB-Inbev.
       </p>
       <Link to="/sobre">
         <Button
