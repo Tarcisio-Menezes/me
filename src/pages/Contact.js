@@ -5,7 +5,7 @@ import gitLogo from '../images/git.png';
 import linkedinLogo from '../images/linkedin.png';
 import whatsLogo from '../images/whats.png';
 import whereAmI from '../utils/whereAmI';
-import '../css/contato.css';
+import '../css/contact.css';
 
 function Contact() {
   useEffect(() => {

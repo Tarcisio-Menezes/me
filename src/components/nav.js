@@ -16,23 +16,23 @@ function Nav() {
         </Link>
       </nav>
       <nav className="aboutLink">
-        <Link to="/sobre">
-          Sobre
+        <Link to="/about">
+          About
         </Link>
       </nav>
-      <nav className="projectsLink">
-        <Link to="/projetos">
-          Início de Carreira
+      <nav className="curiositiesLink">
+        <Link to="/curiosities">
+          First creations
         </Link>
       </nav>
-      <nav className="workLink">
-        <Link to="/trabalho">
-          Trabalho
+      <nav className="ideasLink">
+        <Link to="/ideas">
+          Ideias
         </Link>
       </nav>
       <nav className="contactLink">
-        <Link to="/contato">
-          Contato
+        <Link to="/contact">
+          Contact
         </Link>
       </nav>
     </section>

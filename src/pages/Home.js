@@ -28,7 +28,7 @@ function Home() {
         Spring e um pouco de JavaScript. Atualmente trabalhando na
         BEES Bank Brasil, uma empresa AB-Inbev.
       </p>
-      <Link to="/sobre">
+      <Link to="/about">
         <Button
           variant="outline-secondary"
         >

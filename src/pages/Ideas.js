@@ -2,15 +2,15 @@ import React, { useEffect } from 'react';
 import Nav from '../components/nav';
 import whereAmI from '../utils/whereAmI';
 import DateInfo from '../components/dateInfo';
-import '../css/trabalho.css';
+import '../css/ideas.css';
 
 function Work() {
   useEffect(() => {
-    whereAmI('work');
+    whereAmI('ideas');
   }, []);
 
   return (
-    <div className="work">
+    <div className="ideas">
       <Nav />
       <h2>
         O kotlin e a orientação a objetos

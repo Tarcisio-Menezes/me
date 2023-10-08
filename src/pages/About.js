@@ -3,7 +3,7 @@ import Nav from '../components/nav';
 import { Link } from 'react-router-dom';
 import whereAmI from '../utils/whereAmI';
 import DateInfo from '../components/dateInfo'
-import '../css/sobre.css';
+import '../css/about.css';
 
 function About() {
   useEffect(() => {

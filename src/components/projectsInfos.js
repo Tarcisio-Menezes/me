@@ -1,5 +1,11 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import talkerProject from '../images/talker.png';
+import rickProject from '../images/rickandmorty.png';
+import walletProject from '../images/wallet.png';
+import mysqlProject from '../images/spotifyclone.png';
+import taskProject from '../images/task.png';
+import marsExplorer from '../images/mars.png';
 
 function projectsInfo() {
   const repo = <p>Link para o repositório</p>;
@@ -23,6 +29,7 @@ function projectsInfo() {
               { repo }
             </Card.Link>
           </div>
+          <img src={ taskProject } alt="A simple task list" className="projectImage"/>
         </Card.Body>
       </Card>
       <Card style={ { width: '13rem' } } className="card">
@@ -49,6 +56,7 @@ function projectsInfo() {
               { aplication }
             </Card.Link>
           </div>
+        <img src={ marsExplorer } alt="Mars Explorer app" className="projectImage"/>
         </Card.Body>
       </Card>
       <Card style={ { width: '13rem' } } className="card">
@@ -95,6 +103,7 @@ function projectsInfo() {
               { aplication }
             </Card.Link>
           </div>
+        <img src={ walletProject } alt="A wallet project" className="projectImage"/>
         </Card.Body>
       </Card>
       <Card style={ { width: '13rem' } } className="card">
@@ -114,6 +123,7 @@ function projectsInfo() {
               { repo }
             </Card.Link>
           </div>
+        <img src={ talkerProject } alt="A talker manager project" className="projectImage"/>
         </Card.Body>
       </Card>
       <Card style={ { width: '13rem' } } className="card">
@@ -141,6 +151,7 @@ function projectsInfo() {
               { aplication }
             </Card.Link>
           </div>
+        <img src={ rickProject } alt="A rick and morty page" className="projectImage"/>
         </Card.Body>
       </Card>
       <Card style={ { width: '13rem' } } className="card">
@@ -159,6 +170,7 @@ function projectsInfo() {
               { repo }
             </Card.Link>
           </div>
+        <img src={ walletProject } alt="A wallet project" className="projectImage"/>
         </Card.Body>
       </Card>
     </aside>

@@ -1,27 +1,27 @@
-.work {
+.ideas {
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
 
-.work a {
+.ideas a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-.work h2 {
+.ideas h2 {
   align-self: center;
   margin-top: 5%;
 }
 
-.work .paragraphWork {
+.ideas .paragraphWork {
   align-self: center;
   width: 38%;
   text-align: center;
   padding: 0.5%;
 }
 
-.work h3 {
+.ideas h3 {
   align-self: center;
 }
 
