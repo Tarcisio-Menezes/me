@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '../components/nav';
-import goku from '../images/goku.png';
+import { Link } from 'react-router-dom';
+import goku from '../images/goku.gif';
 import '../css/errorPage.css';
 
 function ErrorPage() {
@@ -8,9 +9,11 @@ function ErrorPage() {
     <div className="error">
       <Nav />
       <section className="errorPage">
-        <h2>
-          Ooops, não consegui encontrar esta rota!
-        </h2>
+        <h4>
+          Ooops, essa rota mudou! Clique
+          <Link to="/"> aqui </Link>
+          para acessar o novo endereço!
+        </h4>
         <img
           src={ goku }
           width="20%"

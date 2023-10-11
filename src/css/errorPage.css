@@ -4,13 +4,24 @@
 }
 
 .errorPage {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.errorPage h4 {
+  text-decoration: none;
+}
+
+.errorPage a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 .errorPage img {
   align-self: center;
+  padding: 1%;
 }
 
 .errorFooter {

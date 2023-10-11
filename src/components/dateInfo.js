@@ -4,7 +4,7 @@ import '../css/dateInfo.css';
 
 function DateInfo() {
 
-  const fomatedDate = '13-08-23';
+  const fomatedDate = '11/10/23';
 
   return (
     <section className='dateInfo'>

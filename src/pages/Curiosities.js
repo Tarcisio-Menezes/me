@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
 import projectsInfo from '../components/projectsInfos';

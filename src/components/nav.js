@@ -27,7 +27,7 @@ function Nav() {
       </nav>
       <nav className="ideasLink">
         <Link to="/ideas">
-          Ideias
+          Ideas
         </Link>
       </nav>
       <nav className="contactLink">

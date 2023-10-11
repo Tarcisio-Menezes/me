@@ -170,7 +170,7 @@ function projectsInfo() {
               { repo }
             </Card.Link>
           </div>
-        <img src={ walletProject } alt="A wallet project" className="projectImage"/>
+        <img src={ mysqlProject } alt="A wallet project" className="projectImage"/>
         </Card.Body>
       </Card>
     </aside>
