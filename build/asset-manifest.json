@@ -6,12 +6,12 @@
     "runtime-main.js": "/me/static/js/runtime-main.10f04a50.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.10f04a50.js.map",
     "static/css/2.e2f7e3b4.chunk.css": "/me/static/css/2.e2f7e3b4.chunk.css",
-    "static/js/2.c79b5f83.chunk.js": "/me/static/js/2.c79b5f83.chunk.js",
-    "static/js/2.c79b5f83.chunk.js.map": "/me/static/js/2.c79b5f83.chunk.js.map",
+    "static/js/2.6ec5d436.chunk.js": "/me/static/js/2.6ec5d436.chunk.js",
+    "static/js/2.6ec5d436.chunk.js.map": "/me/static/js/2.6ec5d436.chunk.js.map",
     "index.html": "/me/index.html",
     "static/css/2.e2f7e3b4.chunk.css.map": "/me/static/css/2.e2f7e3b4.chunk.css.map",
     "static/css/main.38d671dc.chunk.css.map": "/me/static/css/main.38d671dc.chunk.css.map",
-    "static/js/2.c79b5f83.chunk.js.LICENSE.txt": "/me/static/js/2.c79b5f83.chunk.js.LICENSE.txt",
+    "static/js/2.6ec5d436.chunk.js.LICENSE.txt": "/me/static/js/2.6ec5d436.chunk.js.LICENSE.txt",
     "static/media/git.69ffd9cd.png": "/me/static/media/git.69ffd9cd.png",
     "static/media/goku.671d2558.gif": "/me/static/media/goku.671d2558.gif",
     "static/media/linkedin.a680cb8a.png": "/me/static/media/linkedin.a680cb8a.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.10f04a50.js",
     "static/css/2.e2f7e3b4.chunk.css",
-    "static/js/2.c79b5f83.chunk.js",
+    "static/js/2.6ec5d436.chunk.js",
     "static/css/main.38d671dc.chunk.css",
     "static/js/main.19c6ffd0.chunk.js"
   ]

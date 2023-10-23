@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from '../components/nav';
+import CellInfo from '../components/cellInfo';
 import perfilPhoto from '../images/perfil.jpeg';
 import whereAmI from '../utils/whereAmI';
 import '../css/home.css';
@@ -35,6 +36,7 @@ function Home() {
           Conheça mais
         </Button>
       </Link>
+      <CellInfo />
     </div>
   );
 }
