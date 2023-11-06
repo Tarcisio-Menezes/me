@@ -7,7 +7,7 @@ function CellInfo() {
 
   return (
     <section className='cellInfo'>
-        <p className="paragraphcellInfo">
+        <p className="paragraphCellInfo">
           Poxa que pena!A experiência foi projetada para 
           telas maiores. Mas deixe aí nos favoritos para
           abrir quando estiver no pc!

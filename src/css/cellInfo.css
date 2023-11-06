@@ -1,3 +1,7 @@
+.cellInfo {
+    display: none;
+}
+
 @media screen and (max-width: 680px) {
   .cellInfo img {
     align-self: center;
@@ -11,7 +15,7 @@
     text-decoration: none;
   }
   
-  .cellInfo .paragraphcellInfo {
+  .cellInfo .paragraphCellInfo {
     align-self: center;
     width: 38%;
     text-align: center;

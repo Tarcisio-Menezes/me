@@ -17,7 +17,7 @@ function Projects() {
         <h2>
           Algumas de minhas primeiras criações
         </h2>
-        <Link to="/Contato">
+        <Link to="/Contact">
           <p>
             Conheça mais projetos curiosos visitando minhas redes.
           </p>
