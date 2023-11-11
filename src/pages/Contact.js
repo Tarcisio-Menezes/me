@@ -25,15 +25,6 @@ function Contact() {
           para melhorar. Qualquer dúvida consulte o meu Linkedin, ou melhor,
           me mande um whats.
         </p>
-        <h4 className="contactSub">
-          <a
-            href="https://drive.google.com/file/d/17742Bb21UoxP3vmzahjZzW7tJTI8t9Pz/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Baixe o meu currículo aqui.
-          </a>
-        </h4>
       </div>
       <section className="contactLogos">
         <a
